@@ -10,7 +10,7 @@ import wind from '../assets/icons/windy.png'
 const MiniCard = ({ time, temp, imageString }) => {
 
   const [icon, setIcon] = useState(wind)
-  console.log("imageString: " , imageString);
+
   useEffect(() => {
     if (imageString) {
       if (imageString >= 1001 || imageString <= 1100) {

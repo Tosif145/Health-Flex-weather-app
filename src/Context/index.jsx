@@ -30,7 +30,7 @@ export const StateContextProvider = ({ children }) => {
 
        
 
-      const response = await  fetch(`https://api.tomorrow.io/v4/weather/realtime?location=${place}&apikey=`,options)
+      const response = await  fetch(`https://api.tomorrow.io/v4/weather/realtime?location=${place}&apikey=2aj7QwO7BAn76KjXQ6V8Ww5QMcPefSJU`,options)
        .then(response => response.json())
         .catch(error => console.error(error));
 
@@ -49,7 +49,7 @@ export const StateContextProvider = ({ children }) => {
 
        
 
-      const response = await  fetch(`https://api.tomorrow.io/v4/weather/forecast?location=${place}&apikey=`,options)
+      const response = await  fetch(`https://api.tomorrow.io/v4/weather/forecast?location=${place}&apikey=2aj7QwO7BAn76KjXQ6V8Ww5QMcPefSJU`,options)
        .then(response => response.json())
         .catch(error => console.error(error));
 
@@ -75,16 +75,15 @@ export const StateContextProvider = ({ children }) => {
         const weatherData = valuesData;
       
 
-        // const forcast_data = forcastData();
+        const forcast_data = await forcastData();
 
 
-        const forcast_data = obj;   // using dummy data
+        // const forcast_data = obj;   // using dummy data
     
 
         const minutely = Object.values(forcast_data.timelines["minutely"]);
-        console.log("minutely",minutely);
+        // console.log("minutely",minutely);
         
-        console.log(typeof minutely);
 
         
         setLocation(addressData);

@@ -38,7 +38,7 @@ function App() {
 
        <main className='main w-full flex flex-wrap gap- py-4 px-[10%] items-center justify-center'>
        <WeatherCard
-          place={thisLocation}
+          place={place}
           windspeed={weather["windSpeed"]}
           humidity={weather['humidity']}
           temperature={weather['temperature']}
@@ -51,7 +51,7 @@ function App() {
        <div className='mini flex justify-center gap-8 flex-wrap w-[50%]'>
        {
   Object.entries(values).slice(1, 7).map(([key, value]) => {
-    console.log("correct", value); // Correctly accesses the nested time property
+   
     return (
       <MiniCard
         key={key}
