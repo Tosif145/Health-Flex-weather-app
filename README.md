@@ -28,9 +28,9 @@ To run this project locally, follow these steps:
 - Weather forecasts using Tomorrow.io Forecast API.
 - Search functionality to get weather information for different locations.
 
-## Contributors
+## Additional depndencies
 
-- [Your Name](https://github.com/your-username)
+- You can use ```Tailwind css``` for styling based on your choice.
 
 ## License
 
