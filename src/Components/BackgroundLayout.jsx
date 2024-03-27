@@ -23,9 +23,9 @@ const BackgroundLayout = () => {
       
       let imageString = weather['weatherCode']
       if (imageString == 1000) {
-        setImage(Clear)
-      } else if (imageString >= 1001 || imageString <= 1100) {
         setImage(Cloudy)
+      } else if (imageString >= 1001 || imageString <= 1100) {
+        setImage(Clear)
       } else if (imageString >= 1001 || imageString <= 1100) {
         setImage(Rainy)
       } else if (imageString >= 1001 || imageString <= 1100) {

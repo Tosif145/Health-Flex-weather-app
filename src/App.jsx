@@ -17,6 +17,7 @@ function App() {
   const submitCity = () => {
     setPlace(input)
     setInput('')
+    console.log("updated weather",weather);
   }
   return (
     <div className="w-full h-screen text-white px-8">
