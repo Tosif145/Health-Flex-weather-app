@@ -32,6 +32,11 @@ To run this project locally, follow these steps:
 
 - You can use ```Tailwind css``` for styling based on your choice.
 
+
+## API Key
+   - Make sure to create your own key and replace the key in the given files
+   - If you face any probles while accessing api data try to use the "predefined data" in the ```'/Utils/preData.jsx'```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
