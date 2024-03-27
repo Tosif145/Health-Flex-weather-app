@@ -1,0 +1,16 @@
+.mine{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px
+
+}
+
+.main{
+    margin-right:0;
+    padding-right: 0;
+    width: 50%;
+}
+
+.mini{
+    padding-left: 0;
+}
