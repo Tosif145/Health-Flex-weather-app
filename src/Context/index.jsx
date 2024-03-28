@@ -59,12 +59,13 @@ export const StateContextProvider = ({ children }) => {
 
     const storeData = async () => {
         const fetchData = await fetchWeather();
-        console.log(fetchData.code);
+        console.log("fetched data",fetchData);
         if(fetchData.code){
             alert("Api request limit exceeded!");
             
         }
-        const data = dataDummy.data;
+        // const data = dataDummy.data;
+        const data = fetchData.data;
         
         const valuesData = data.values;
 
