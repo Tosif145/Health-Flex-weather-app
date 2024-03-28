@@ -4,7 +4,7 @@ A weather application built with React.js, created using Create React App (CRA),
 
 ## Hosted Link
 
-![Visit the Weather App](https://health-flex-weather-app.vercel.app/)
+[Visit the Weather App](https://health-flex-weather-app.vercel.app/)
 
 ## Tech Stack
 
