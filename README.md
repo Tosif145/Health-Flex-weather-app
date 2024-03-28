@@ -49,5 +49,7 @@ To run this project locally, follow these steps:
 ##  Snapshot
 ![Screenshot](src/assets/images/weatherApp.png)
 
-
+## NOTE : 
+ * If the number of api request limit exceeds app will not display result.
+ * Make sure to use multiple api key's or you have to wait for the next limit.
 
