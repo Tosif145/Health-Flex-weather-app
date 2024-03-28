@@ -28,8 +28,8 @@ const WeatherCard = (
   
   useEffect(() => {
     if (imageString) {
-      if (imageString >= 1001 || imageString <= 1100) {
-        setIcon(cloud)
+      if (imageString >= 1000 || imageString <= 1100) {
+        setIcon(sun)
       } else if (imageString >= 1001 || imageString <= 1100) {
         setIcon(rain)
       }  else if (imageString >= 1001 || imageString <= 1100) {
@@ -39,7 +39,7 @@ const WeatherCard = (
       } else if (imageString >= 1001 || imageString <= 1100) {
         setIcon(snow)
       } else{
-        setIcon(sun)
+        setIcon(cloud)
       }
     }
   }, [imageString])

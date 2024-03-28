@@ -14,7 +14,7 @@ const MiniCard = ({ time, temp, imageString }) => {
   useEffect(() => {
     if (imageString) {
       if (imageString >= 1001 || imageString <= 1100) {
-        setIcon(cloud)
+        setIcon(sun)
       } else if (imageString >= 1001 || imageString <= 1100) {
         setIcon(rain)
       }  else if (imageString >= 1001 || imageString <= 1100) {
@@ -24,7 +24,7 @@ const MiniCard = ({ time, temp, imageString }) => {
       } else if (imageString >= 1001 || imageString <= 1100) {
         setIcon(snow)
       } else{
-        setIcon(sun)
+        setIcon(cloud)
       }
     }
   }, [imageString])
