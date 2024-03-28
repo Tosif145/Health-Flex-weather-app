@@ -47,7 +47,6 @@ To run this project locally, follow these steps:
 
 
 ##  Snapshot
-
 ![Screenshot](src/assets/images/weatherApp.png)
 
 
