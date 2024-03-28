@@ -39,6 +39,6 @@ To run this project locally, follow these steps:
 
 ## Query at
 
-T- mail to : ``` tosifhk2000@gmail.com```
+- mail to : ``` tosifhk2000@gmail.com```
 
 
