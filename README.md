@@ -2,6 +2,10 @@
 
 A weather application built with React.js, created using Create React App (CRA), and styled with Tailwind CSS. It utilizes the Tomorrow.io API for real-time weather data and the Tomorrow.io Forecast API for weather forecasts.
 
+## Hosted Link
+
+      [Visit the Weather App](https://health-flex-weather-app.vercel.app/)
+
 ## Tech Stack
 
 - React.js
@@ -40,5 +44,11 @@ To run this project locally, follow these steps:
 ## Query at
 
 T- mail to : ``` tosifhk2000@gmail.com```
+
+
+##  Snapshot
+
+![Screenshot](src/assets/images/weatherApp.png)
+
 
 
